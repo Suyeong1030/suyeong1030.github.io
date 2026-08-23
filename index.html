@@ -3,101 +3,171 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal academic homepage of Suyeong Kim, a graduate researcher in HCI, VR, AI, and digital health.">
+  <meta name="description" content="Academic homepage of Suyeong Kim, an undergraduate researcher interested in HCI, VR/XR, AI, rehabilitation, robotics, and biosignals.">
   <title>Suyeong Kim</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page">
-    <header class="intro">
-      <div class="avatar" aria-hidden="true">SK</div>
-      <div>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#top">Suyeong Kim</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="page">
+    <section id="about" class="hero">
+      <img
+        class="profile-photo"
+        src="https://avatars.githubusercontent.com/u/182457144?v=4"
+        alt="Suyeong Kim"
+      >
+      <div class="hero-copy">
+        <p class="eyebrow">Undergraduate Researcher</p>
         <h1>Suyeong Kim</h1>
-        <p class="role">Undergraduate Student in Computer Science</p>
+        <p class="role">B.S. Student in Computer Engineering · Daegu University</p>
         <p class="summary">
-          I am interested in Human–Computer Interaction(HCI), Virtual Reality(XR), AI, and digital health. I build interactive systems that connect immersive environments, multimodal sensing, and intelligent feedback.
+          I am an undergraduate researcher at HCI-DU Lab. My research interests include
+          Human-Computer Interaction, VR/XR, AI, rehabilitation, robotics, and biosignal-based interaction.
         </p>
-        <nav class="links" aria-label="Profile links">
+        <div class="profile-links">
           <a href="mailto:kimsuyeong.hci.du@gmail.com">Email</a>
           <a href="https://github.com/Suyeong1030" target="_blank" rel="noreferrer">GitHub</a>
-        </nav>
+          <a href="https://www.hci-du.com" target="_blank" rel="noreferrer">HCI-DU Lab</a>
+        </div>
       </div>
-    </header>
+    </section>
 
-    <section>
+    <section class="section-block">
       <h2>Research Interests</h2>
-      <ul class="interest-list">
-        <li>Human–Computer Interaction and Human-centered AI</li>
-        <li>Virtual and Extended Reality for training and rehabilitation</li>
-        <li>Multimodal sensing and physiological feedback</li>
-        <li>AI agents and context-aware interactive systems</li>
-      </ul>
+      <div class="tags" aria-label="Research interests">
+        <span>HCI</span>
+        <span>Virtual Reality / XR</span>
+        <span>Biosignals · sEMG</span>
+        <span>Human-centered AI</span>
+        <span>Rehabilitation</span>
+        <span>Robotics</span>
+      </div>
     </section>
 
-    <section>
-      <h2>Selected Projects</h2>
-      <article class="item">
-        <div class="item-title">
-          <h3>ARTEMIS — AI-Powered VR Archery Training</h3>
-          <span>2026 · Ongoing</span>
-        </div>
-        <p>A VR archery training system integrating physical bow input, motion events, physiological signals, and AI-generated shot feedback.</p>
-        <p class="meta">Unity · Meta Quest 3 · FastAPI · Arduino · WebSocket</p>
-      </article>
+    <section id="publications" class="section-block">
+      <div class="section-heading">
+        <h2>Selected Publications</h2>
+        <p>Selected research works in HCI, VR, biosignals, and human-robot interaction.</p>
+      </div>
 
-      <article class="item">
-        <div class="item-title">
-          <h3>In-Car Child Intervention AI Agent</h3>
-          <span>2026 · Research</span>
-        </div>
-        <p>An HCI study exploring when an in-vehicle AI agent should intervene in rear-seat child situations and when parental involvement is necessary.</p>
-        <p class="meta">Human-centered AI · NDS Analysis · Human Factors</p>
-      </article>
+      <div class="publication-list">
+        <article class="publication-card">
+          <div class="publication-thumb">
+            <img src="assets/pub-pain-avatar.svg" alt="First page of the pain expression in robotic avatars paper">
+          </div>
+          <div class="publication-content">
+            <p class="publication-meta">Frontiers in Robotics and AI · 2024 · Co-Author</p>
+            <h3>
+              <a href="https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1419584/full" target="_blank" rel="noreferrer">
+                Siamese and triplet network-based pain expression in robotic avatars for care and nursing training
+              </a>
+            </h3>
+            <p>
+              A care-training study that estimates pain intensity using Siamese and triplet networks
+              and represents pain through robotic avatars and visual feedback.
+            </p>
+          </div>
+        </article>
 
-      <article class="item">
-        <div class="item-title">
-          <h3>EMG-Based VR Vocational Training</h3>
-          <span>Prototype</span>
-        </div>
-        <p>A rehabilitation-oriented VR training prototype that connects surface EMG activity with task performance and real-time feedback.</p>
-        <p class="meta">Unity · sEMG · Arduino · Signal Processing</p>
-      </article>
+        <article class="publication-card">
+          <div class="publication-thumb">
+            <img src="assets/pub-emg-vr.svg" alt="First page of the EMG-Driven VR Interfaces paper">
+          </div>
+          <div class="publication-content">
+            <p class="publication-meta">ISIITA 2025 · 1st Author</p>
+            <h3>EMG-Driven VR Interfaces: Redefining Interaction in Virtual Reality</h3>
+            <p>
+              A sensory VR vocational-training interface that uses sEMG-based muscle activation
+              to make virtual interaction more physically expressive and immersive.
+            </p>
+          </div>
+        </article>
+
+        <article class="publication-card">
+          <div class="publication-thumb">
+            <img src="assets/pub-grip-vr.svg" alt="First page of the grip strength reflection VR paper">
+          </div>
+          <div class="publication-content">
+            <p class="publication-meta">IAITI XR-Metaverse Conference · 2024 · Co-Author</p>
+            <h3>Development of Grip Strength Reflection System Based on SEMG of the Flexor Digitorum Profundus for Sensory VR Interaction</h3>
+            <p>
+              A VR interaction system that reflects flexor digitorum profundus sEMG into
+              grip-strength-based virtual interaction.
+            </p>
+          </div>
+        </article>
+
+        <article class="publication-card">
+          <div class="publication-thumb">
+            <img src="assets/pub-vr-patient.svg" alt="First page of the VR patient avatar visual feedback paper">
+          </div>
+          <div class="publication-content">
+            <p class="publication-meta">DSA 2023 · Co-Author</p>
+            <h3>Visual Feedback Using VR Patient Avatar in Care and Nursing Training Environments</h3>
+            <p>
+              A VR patient-avatar approach for providing intuitive visual feedback during
+              care and nursing training.
+            </p>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section>
-      <h2>Publications & Presentations</h2>
-      <article class="item publication">
-        <div class="item-title">
-          <h3>AI-Powered VR Archery Training with Multimodal Real-Time Feedback</h3>
-          <span>Work in progress</span>
-        </div>
-        <p>System research on immersive training, physical interaction, biosignals, and AI-supported feedback.</p>
-      </article>
-
-      <article class="item publication">
-        <div class="item-title">
-          <h3>An NDS-Based Analysis of Intervention Needs for an In-Vehicle Child AI Agent</h3>
-          <span>Ongoing research</span>
-        </div>
-        <p>Research on intervention categories and appropriate levels of AI and parental involvement.</p>
-      </article>
+    <section class="section-block current-work">
+      <h2>Current Work</h2>
+      <div class="simple-list">
+        <article>
+          <p class="publication-meta">In preparation · 2026 · 1st Author</p>
+          <h3>Flexor Digitorum Profundus sEMG Interface for Adaptive Interaction in Sensory VR Vocational Training Environments</h3>
+        </article>
+        <article>
+          <p class="publication-meta">Submitted to Applied Sciences · 2026 · 1st Author</p>
+          <h3>Neuro-Fuzzy Human-Centric Lighting: A Bluetooth Mesh-Based Adaptive Control Scenario for Energy-Efficient Smart Buildings</h3>
+        </article>
+      </div>
     </section>
 
-    <section>
-      <h2>Education</h2>
-      <article class="item compact">
-        <div class="item-title">
-          <h3>Graduate Study in Computer Science</h3>
-          <span>South Korea</span>
-        </div>
-        <p>Details can be added after confirming the university, degree, laboratory, and study period.</p>
-      </article>
+    <section id="experience" class="section-block">
+      <h2>Education & Experience</h2>
+      <div class="timeline">
+        <article>
+          <div>
+            <h3>B.S. in Computer Engineering</h3>
+            <p>Daegu University</p>
+          </div>
+          <span>2022 - Present</span>
+        </article>
+        <article>
+          <div>
+            <h3>Research Intern</h3>
+            <p>HCI-DU Lab, Daegu University</p>
+          </div>
+          <span>2023 - Present</span>
+        </article>
+        <article>
+          <div>
+            <h3>English Language Program</h3>
+            <p>University of Calgary, Canada</p>
+          </div>
+          <span>2025</span>
+        </article>
+      </div>
     </section>
-
-    <footer>
-      <p>Last updated August 2026.</p>
-    </footer>
   </main>
+
+  <footer class="footer">
+    <p>Suyeong Kim · Last updated August 2026</p>
+  </footer>
 </body>
 </html>
