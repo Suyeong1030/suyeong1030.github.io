@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="EMG waveform and VR headset illustration">
+  <rect width="600" height="420" fill="#f6f8fb"/>
+  <rect x="36" y="34" width="528" height="352" rx="18" fill="#ffffff" stroke="#dfe5ec"/>
+  <text x="66" y="78" fill="#245b9e" font-family="Arial, sans-serif" font-size="22" font-weight="700">EMG-DRIVEN VR</text>
+  <g transform="translate(68 118)" fill="none" stroke="#456b93" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 96h38l15-34 22 74 20-112 24 144 24-94 18 22h43"/>
+    <rect x="252" y="48" width="172" height="94" rx="36"/>
+    <path d="M252 86l-34-18v55l34-18M424 86l34-18v55l-34-18"/>
+    <path d="M292 142v34M384 142v34M292 176h92"/>
+    <circle cx="306" cy="94" r="9" fill="#456b93"/>
+    <circle cx="370" cy="94" r="9" fill="#456b93"/>
+  </g>
+  <text x="66" y="344" fill="#667085" font-family="Arial, sans-serif" font-size="18">sEMG · Virtual Reality · Sensory interaction · Training</text>
+</svg>
