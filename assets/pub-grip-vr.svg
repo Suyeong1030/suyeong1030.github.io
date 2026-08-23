@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Grip strength and EMG interaction illustration">
+  <rect width="600" height="420" fill="#f6f8fb"/>
+  <rect x="36" y="34" width="528" height="352" rx="18" fill="#ffffff" stroke="#dfe5ec"/>
+  <text x="66" y="78" fill="#245b9e" font-family="Arial, sans-serif" font-size="22" font-weight="700">GRIP STRENGTH × VR</text>
+  <g transform="translate(72 118)" fill="none" stroke="#456b93" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 142c-20-24-22-55-4-69 13-10 28-2 35 9l14 22V38c0-14 10-24 22-24s21 10 21 24v58-76c0-14 10-24 22-24s21 10 21 24v76-62c0-14 10-24 22-24s21 10 21 24v66-43c0-14 10-24 22-24s21 10 21 24v83c0 34-25 62-58 62H119c-31 0-56-13-77-40z"/>
+    <path d="M298 92h34l14-30 20 64 18-102 23 132 22-82 16 18h35"/>
+  </g>
+  <text x="66" y="344" fill="#667085" font-family="Arial, sans-serif" font-size="18">Flexor digitorum profundus · sEMG · Grip-strength reflection</text>
+</svg>
