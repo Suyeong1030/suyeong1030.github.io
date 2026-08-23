@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">sEMG controller-free VR grip interaction</title>
+  <desc id="desc">Minimal academic illustration of a hand, EMG signal, and virtual object.</desc>
+  <rect width="640" height="400" rx="28" fill="#f6f8fb"/>
+  <rect x="34" y="34" width="572" height="332" rx="20" fill="#ffffff" stroke="#dce3ec"/>
+  <text x="66" y="88" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#23405f">sEMG × Controller-Free VR</text>
+  <path d="M70 178 C98 178 98 126 126 126 S154 230 182 230 S210 152 238 152 S266 194 294 194" fill="none" stroke="#4f7fb0" stroke-width="8" stroke-linecap="round"/>
+  <rect x="366" y="122" width="150" height="150" rx="26" fill="#eef4fa" stroke="#acc3da" stroke-width="3"/>
+  <path d="M327 274 C343 229 368 207 399 207 C424 207 442 222 458 244 C473 265 486 279 514 286" fill="none" stroke="#2f4050" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="400" cy="207" r="12" fill="#4f7fb0"/>
+  <circle cx="431" cy="221" r="10" fill="#4f7fb0"/>
+  <circle cx="458" cy="244" r="9" fill="#4f7fb0"/>
+  <text x="66" y="326" font-family="Arial, sans-serif" font-size="15" fill="#6c7885">Isometric force input beyond hand tracking</text>
+</svg>
