@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Robotic avatar and neural network illustration">
+  <rect width="600" height="420" fill="#f6f8fb"/>
+  <rect x="36" y="34" width="528" height="352" rx="18" fill="#ffffff" stroke="#dfe5ec"/>
+  <text x="66" y="78" fill="#245b9e" font-family="Arial, sans-serif" font-size="22" font-weight="700">HUMAN-ROBOT INTERACTION</text>
+  <g transform="translate(76 120)" fill="none" stroke="#456b93" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="92" r="66"/>
+    <path d="M80 84c12-10 48-10 60 0M84 116c17 18 45 18 62 0"/>
+    <circle cx="88" cy="82" r="4" fill="#456b93"/>
+    <circle cx="134" cy="82" r="4" fill="#456b93"/>
+    <path d="M176 68h48M176 92h48M176 116h48"/>
+    <circle cx="250" cy="68" r="12" fill="#edf4fb"/>
+    <circle cx="250" cy="116" r="12" fill="#edf4fb"/>
+    <circle cx="292" cy="92" r="12" fill="#edf4fb"/>
+    <path d="M262 68l18 18M262 116l18-18M304 92h42"/>
+    <rect x="346" y="48" width="86" height="90" rx="16"/>
+    <circle cx="372" cy="82" r="5" fill="#456b93"/>
+    <circle cx="406" cy="82" r="5" fill="#456b93"/>
+    <path d="M370 108h38"/>
+  </g>
+  <text x="66" y="344" fill="#667085" font-family="Arial, sans-serif" font-size="18">Pain expression · Siamese / Triplet networks · Robotic avatar</text>
+</svg>
