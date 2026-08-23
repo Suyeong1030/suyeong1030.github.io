@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="VR patient avatar and visual feedback illustration">
+  <rect width="600" height="420" fill="#f6f8fb"/>
+  <rect x="36" y="34" width="528" height="352" rx="18" fill="#ffffff" stroke="#dfe5ec"/>
+  <text x="66" y="78" fill="#245b9e" font-family="Arial, sans-serif" font-size="22" font-weight="700">VR PATIENT AVATAR</text>
+  <g transform="translate(74 118)" fill="none" stroke="#456b93" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="22" width="176" height="126" rx="15"/>
+    <circle cx="88" cy="75" r="30"/>
+    <path d="M48 132c16-26 64-26 80 0"/>
+    <path d="M214 82h56"/>
+    <path d="M252 62l24 20-24 20"/>
+    <rect x="300" y="38" width="142" height="88" rx="30"/>
+    <path d="M300 76l-28-16v45l28-16M442 76l28-16v45l-28-16"/>
+    <circle cx="342" cy="82" r="8" fill="#456b93"/>
+    <circle cx="398" cy="82" r="8" fill="#456b93"/>
+  </g>
+  <text x="66" y="344" fill="#667085" font-family="Arial, sans-serif" font-size="18">Care & nursing training · Patient avatar · Visual feedback</text>
+</svg>
